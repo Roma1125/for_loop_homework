@@ -9,4 +9,7 @@ def main(n):
     Returns:
         list: return  answer
     """
-    return
+    zero=range(n)
+
+    return list(zero)
+print(main(45))
