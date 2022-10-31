@@ -8,8 +8,8 @@ def main(A,B):
         int: return  answer
     """
     d=0
-    for i in range(A,B+1):
+    for i in range(A,B):
        d+=i 
 
     return d
-print(main(2,7))
+print(main(3,6))
