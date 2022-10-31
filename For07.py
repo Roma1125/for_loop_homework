@@ -7,8 +7,8 @@ def main(N):
         int: return  answer
     """
     d=0
-    for i in range(N):
+    for i in range(1,N,2):
        d+=i 
 
     return d
-print(main(6))
+print(main(12))
