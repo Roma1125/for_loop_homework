@@ -1,3 +1,5 @@
+
+
 def main(n):
     """
     Return numbers from zero to n in a string view.
@@ -6,4 +8,13 @@ def main(n):
     Returns:
         string: return  answer
     """
-    return
+    d=[]
+    for s in range(n):
+        d.append(str(s))
+
+
+        
+    
+    
+    return ','.join(d)
+print( (main(45)))
